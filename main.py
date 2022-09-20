@@ -7,7 +7,7 @@ import random
 def generate_response(user_input):
     responses = [
         "How interesting!", "You don't say!", "Very cool!",
-        "Programming is fun!"
+        "Programming is fun!", "Tell me more!"
     ]
     return random.choice(responses)
 
