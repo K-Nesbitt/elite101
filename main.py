@@ -7,7 +7,7 @@ import random
 def generate_response(user_input):
     responses = [
         "How interesting!", "You don't say!", "Very cool!",
-        "Programming is fun!"
+        "Programming is fun!", "Tell me more!"
     ]
     return random.choice(responses)
 
@@ -16,6 +16,7 @@ def init_chat():
     quit_character = 'bye'
 
     user_input = input("Hello, how are you doing?\n")
+
 
     while user_input != quit_character:
         #Ask the user for more input, then use that in your response
