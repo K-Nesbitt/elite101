@@ -15,7 +15,7 @@ def generate_response(user_input):
 def init_chat():
     quit_character = 'bye'
 
-    user_input = input("Hello, how are you?\n")
+    user_input = input("Hello, how are you doing?\n")
 
     while user_input != quit_character:
         #Ask the user for more input, then use that in your response
